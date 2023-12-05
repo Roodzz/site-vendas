@@ -1,2 +1,2 @@
 # site-vendas
-Site de vendas, utilizando api do mercado livre para a importação dos itens. 
+Site de vendas, utilizando api do mercado livre para a importação dos produtos. 
