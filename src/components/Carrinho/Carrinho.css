@@ -1,0 +1,29 @@
+.cart{
+  width: 100%;
+  max-width: 330px;
+  background-color: white;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 100px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cart-items{
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.cart-resume{
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 35px 0 15;
+  border-top: 1px solid #ddd;
+}
+
+.cart-items .cart-items:last-child(){
+  border-bottom: none;
+}
